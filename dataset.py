@@ -26,6 +26,7 @@ class CustomImageFolder(ImageFolder):
         return img
 
 
+
 class CustomTensorDataset(Dataset):
     def __init__(self, data_tensor):
         self.data_tensor = data_tensor
